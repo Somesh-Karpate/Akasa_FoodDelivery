@@ -32,14 +32,14 @@ Payment Integration: Stripe
 
 ## Installation
 
-1. Clone the repository
+### 1. Clone the repository
 
 
 ```bash
   git clone https://github.com/Somesh-Karpate/Akasa_FoodDelivery
   cd Akasa_FoodDelivery
 ```
-2. Setup Admin
+### 2. Setup Admin
 
 ```bash
     cd admin
@@ -53,7 +53,7 @@ Run Admin :
     npm run dev 
 ```
 
-3. Create .env file in backend directory 
+### 3. Create .env file in backend directory 
 
 backend/.env :
 ```bash
@@ -62,7 +62,7 @@ backend/.env :
 ```
 For stripe secret key go to : https://stripe.com/in
 
-4. Setup database
+### 4. Setup database
 
 Go to backend/config/db.js :
 ```bash
@@ -78,7 +78,7 @@ c. Connect your application -> Drivers -> And Copy -> the connection string for 
 if any doubt you can watch : https://www.youtube.com/watch?v=SMXbGrKe5gM
 
 
-5. Setup your backend
+### 5. Setup your backend
 
 ```bash
     cd backend
@@ -92,7 +92,7 @@ Run backend :
     nodemon server.js 
 ```
 
-6. Setup your frontend
+### 6. Setup your frontend
 
 ```bash
     cd frontend
@@ -106,7 +106,7 @@ Run frontend :
     npm run dev 
 ```
 
-7. This steps will help you to run the whole project in your system.
+### 7. This steps will help you to run the whole project in your system.
 
 
 
