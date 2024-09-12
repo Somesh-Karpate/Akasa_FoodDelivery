@@ -1,4 +1,4 @@
-Admin : https://fresffood-admin.onrender.com/add
+Admin : https://fresffood-admin.onrender.com/
 User : https://freshfood-admin.onrender.com/
 # Food Delivery 
 
