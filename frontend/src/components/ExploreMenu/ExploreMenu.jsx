@@ -5,6 +5,7 @@ import { menu_list } from '../../assets/frontend_assets/assets'; // Import menu_
 // Define the ExploreMenu component, which takes in category and setCategory as props
 const ExploreMenu = ({category, setCategory}) => {
   return (
+    
     <div className='explore-menu' id='explore-menu'> {/* Container for the explore menu */}
         <h1>Craving something special?</h1> {/* Heading */}
         <p className='explore-menu-text'> Explore our diverse menu!</p> {/* Subheading */}

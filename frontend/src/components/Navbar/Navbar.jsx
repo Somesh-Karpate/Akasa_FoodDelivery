@@ -64,7 +64,7 @@ const Navbar = ({ setShowLogin }) => {
       <div className="navbar-right">
         {" "}
         {/* Container for the right side of the navbar */}
-        <img src={assets.search_icon} alt="" /> {/* Search icon */}
+         
         <div className="navbar-search-icon">
           {" "}
           {/* Container for the basket icon */}
@@ -96,6 +96,10 @@ const Navbar = ({ setShowLogin }) => {
         {/* Sign In button */}
       </div>
     </div>
+    
+   
+
+    
   );
 };
 

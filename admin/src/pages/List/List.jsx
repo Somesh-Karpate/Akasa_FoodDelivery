@@ -53,10 +53,11 @@ const List = ({url}) => {
             <p>{item.name}</p>
             <p>{item.category}</p>
             <p>₹{item.price}</p>
-            <p onClick={() => removeFood(item._id)} className='cursor'>x</p>
+            <p onClick={() => removeFood(item._id)} className='cursor font-bold'>-Remove Item-</p>
           </div>
         ))}
       </div>
+      <br></br>
     </div>
   )
 }

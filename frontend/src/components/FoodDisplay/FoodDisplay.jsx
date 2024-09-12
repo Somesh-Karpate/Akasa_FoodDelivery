@@ -11,8 +11,9 @@ const FoodDisplay = ({category}) => {
 
     // Return the JSX for the FoodDisplay component
     return (
-        <div className='food-display' id='food-display'> {/* Container for the food display */}
+        <div className='food-arrange'>
             <h2>Top Dishes Near You</h2> {/* Heading */}
+        <div className='food-display' id='food-display'> {/* Container for the food display */}
             <div className="food-display-list"> {/* Container for the list of food items */}
                 {food_list.map((item, index) => { // Iterate over food_list to create FoodItem components
                 if (category==="All" || category==item.category) {
@@ -28,6 +29,7 @@ const FoodDisplay = ({category}) => {
                 }
                     
                 })}
+            </div>
             </div>
         </div>
     );

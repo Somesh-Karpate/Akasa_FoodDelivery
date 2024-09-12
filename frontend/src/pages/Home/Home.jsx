@@ -14,8 +14,10 @@ const Home = () => {
   return (
     <div>
         <Header /> {/* Header component */}
+        <div className="arrange">
         <ExploreMenu category={category} setCategory={setCategory} /> {/* ExploreMenu component with category and setCategory props */}
         <FoodDisplay category={category} /> {/* FoodDisplay component with category prop */}
+        </div>
     </div>
   );
 }
