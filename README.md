@@ -1,4 +1,5 @@
-
+Admin : https://fresffood-admin.onrender.com/add
+User : https://freshfood-admin.onrender.com/
 # Food Delivery 
 
 Food Delivery is a full-stack web application built using the MERN stack (MongoDB, Express, React, and Node.js). It allows users to browse menus, place food orders, and track their deliveries in real-time. The project simulates the real-world functionalities of a food delivery service, making it user-friendly for both customers and restaurant administrators.
